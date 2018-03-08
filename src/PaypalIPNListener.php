@@ -77,6 +77,11 @@ class PaypalIPNListener
     const PAYPAL_HOST = 'www.paypal.com';
     const SANDBOX_HOST = 'www.sandbox.paypal.com';
 
+     public function getPostData()
+     {
+        return $this->post_data;   
+     }
+    
     /**
      *  Post Back Using cURL
      *
