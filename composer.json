@@ -1,11 +1,10 @@
 {
-    "name": "fahim/laravel5-paypal-ipn",
+    "name": "AndrewA/laravel5-paypal-ipn",
     "description": "Paypal IPN class for Laravel 5",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fahim Shariar",
-            "email": "thebdcoder@gmail.com"
+            "name": "Andrew Aubury",
         }
     ],
     "minimum-stability": "stable",
@@ -14,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fahim\\PaypalIPN\\": "src/"
+            "Andrew\\PaypalIPN\\": "src/"
         }
     }
 }
