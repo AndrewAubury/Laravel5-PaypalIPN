@@ -1,4 +1,4 @@
-<?php namespace Fahim\PaypalIPN;
+<?php namespace Andrew\PaypalIPN;
 
 use Exception;
 
